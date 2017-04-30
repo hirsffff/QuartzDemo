@@ -1,0 +1,180 @@
+2017-04-30 21:46:09 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1184) -Using default implementation for ThreadExecutor
+  2017-04-30 21:46:09 [ INFO] - org.quartz.core.SchedulerSignalerImpl -SchedulerSignalerImpl.java(61) -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+  2017-04-30 21:46:09 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(240) -Quartz Scheduler v.2.2.1 created.
+  2017-04-30 21:46:09 [ INFO] - org.quartz.simpl.RAMJobStore -RAMJobStore.java(155) -RAMJobStore initialized.
+  2017-04-30 21:46:09 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(305) -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+  2017-04-30 21:46:09 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1339) -Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+  2017-04-30 21:46:09 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1343) -Quartz scheduler version: 2.2.1
+  2017-04-30 21:46:09 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(575) -Scheduler MyScheduler_$_NON_CLUSTERED started.
+  2017-04-30 21:46:09 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-04-30 21:46:09 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-04-30 21:46:09 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-04-30 21:46:09 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-04-30 21:46:10 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Sun Apr 30 21:46:09 CST 2017
+  2017-04-30 21:46:10 [DEBUG] - org.quartz.utils.UpdateChecker -UpdateChecker.java(54) -Checking for available updated version of Quartz...
+  2017-04-30 21:46:36 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-04-30 21:47:04 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-04-30 21:47:28 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-04-30 21:50:13 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1184) -Using default implementation for ThreadExecutor
+  2017-04-30 21:50:13 [ INFO] - org.quartz.core.SchedulerSignalerImpl -SchedulerSignalerImpl.java(61) -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+  2017-04-30 21:50:13 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(240) -Quartz Scheduler v.2.2.1 created.
+  2017-04-30 21:50:13 [ INFO] - org.quartz.simpl.RAMJobStore -RAMJobStore.java(155) -RAMJobStore initialized.
+  2017-04-30 21:50:13 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(305) -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+  2017-04-30 21:50:13 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1339) -Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+  2017-04-30 21:50:13 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1343) -Quartz scheduler version: 2.2.1
+  2017-04-30 21:50:13 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(575) -Scheduler MyScheduler_$_NON_CLUSTERED started.
+  2017-04-30 21:50:13 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-04-30 21:50:13 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-04-30 21:50:13 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-04-30 21:50:13 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-04-30 21:50:13 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Sun Apr 30 21:50:13 CST 2017
+  2017-04-30 21:50:14 [DEBUG] - org.quartz.utils.UpdateChecker -UpdateChecker.java(54) -Checking for available updated version of Quartz...
+  2017-04-30 21:50:40 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:36:20 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1184) -Using default implementation for ThreadExecutor
+  2017-05-01 01:36:20 [ INFO] - org.quartz.core.SchedulerSignalerImpl -SchedulerSignalerImpl.java(61) -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+  2017-05-01 01:36:20 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(240) -Quartz Scheduler v.2.2.1 created.
+  2017-05-01 01:36:20 [ INFO] - org.quartz.simpl.RAMJobStore -RAMJobStore.java(155) -RAMJobStore initialized.
+  2017-05-01 01:36:20 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(305) -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+  2017-05-01 01:36:20 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1339) -Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+  2017-05-01 01:36:20 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1343) -Quartz scheduler version: 2.2.1
+  2017-05-01 01:36:20 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(575) -Scheduler MyScheduler_$_NON_CLUSTERED started.
+  2017-05-01 01:36:20 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:36:20 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:36:20 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:36:20 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:36:20 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:36:20 CST 2017
+  2017-05-01 01:36:20 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:36:20 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:36:20 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:36:20 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:36:20 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:36:20 CST 2017
+  2017-05-01 01:36:21 [DEBUG] - org.quartz.utils.UpdateChecker -UpdateChecker.java(54) -Checking for available updated version of Quartz...
+  2017-05-01 01:36:30 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:36:30 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:36:30 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:36:30 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:36:30 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:36:30 CST 2017
+  2017-05-01 01:36:40 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:36:40 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:36:40 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:36:40 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:36:40 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:36:40 CST 2017
+  2017-05-01 01:38:17 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1184) -Using default implementation for ThreadExecutor
+  2017-05-01 01:38:17 [ INFO] - org.quartz.core.SchedulerSignalerImpl -SchedulerSignalerImpl.java(61) -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+  2017-05-01 01:38:17 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(240) -Quartz Scheduler v.2.2.1 created.
+  2017-05-01 01:38:17 [ INFO] - org.quartz.simpl.RAMJobStore -RAMJobStore.java(155) -RAMJobStore initialized.
+  2017-05-01 01:38:17 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(305) -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+  2017-05-01 01:38:17 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1339) -Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+  2017-05-01 01:38:17 [ INFO] - org.quartz.impl.StdSchedulerFactory -StdSchedulerFactory.java(1343) -Quartz scheduler version: 2.2.1
+  2017-05-01 01:38:17 [ INFO] - org.quartz.core.QuartzScheduler -QuartzScheduler.java(575) -Scheduler MyScheduler_$_NON_CLUSTERED started.
+  2017-05-01 01:38:17 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:38:17 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:38:17 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:38:17 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:38:17 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:38:17 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:38:17 CST 2017
+  2017-05-01 01:38:18 [DEBUG] - org.quartz.utils.UpdateChecker -UpdateChecker.java(54) -Checking for available updated version of Quartz...
+  2017-05-01 01:38:27 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:38:27 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:38:27 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:38:27 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:38:27 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:38:27 CST 2017
+  2017-05-01 01:38:37 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:38:37 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:38:37 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:38:37 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:38:37 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:38:37 CST 2017
+  2017-05-01 01:38:47 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:38:47 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:38:47 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:38:47 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:38:47 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:38:47 CST 2017
+  2017-05-01 01:38:57 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:38:57 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:38:57 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:38:57 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:38:57 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:38:57 CST 2017
+  2017-05-01 01:39:07 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:39:07 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:39:07 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:39:07 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:39:07 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:39:07 CST 2017
+  2017-05-01 01:39:17 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:39:17 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:39:17 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:39:17 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:39:17 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:39:17 CST 2017
+  2017-05-01 01:39:27 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:39:27 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:39:27 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:39:27 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:39:27 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:39:27 CST 2017
+  2017-05-01 01:39:37 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:39:37 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:39:37 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:39:37 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:39:37 CST 2017
+  2017-05-01 01:39:37 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:39:47 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:39:47 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:39:47 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:39:47 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:39:47 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:39:47 CST 2017
+  2017-05-01 01:39:57 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:39:57 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:39:57 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:39:57 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:39:57 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:39:57 CST 2017
+  2017-05-01 01:40:07 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:40:07 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:40:07 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:40:07 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:40:07 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:40:07 CST 2017
+  2017-05-01 01:40:17 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:40:17 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:40:17 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:40:17 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:40:17 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:40:17 CST 2017
+  2017-05-01 01:40:27 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:40:27 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:40:27 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:40:27 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:40:27 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:40:27 CST 2017
+  2017-05-01 01:40:37 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:40:37 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:40:37 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:40:37 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:40:37 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:40:37 CST 2017
+  2017-05-01 01:40:47 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 1 triggers
+  2017-05-01 01:40:47 [DEBUG] - org.quartz.simpl.PropertySettingJobFactory -SimpleJobFactory.java(51) -Producing instance of Job 'group1.job1', class=com.v.test.HelloJob
+  2017-05-01 01:40:47 [DEBUG] - org.quartz.core.QuartzSchedulerThread -QuartzSchedulerThread.java(276) -batch acquisition of 0 triggers
+  2017-05-01 01:40:47 [DEBUG] - org.quartz.core.JobRunShell -JobRunShell.java(201) -Calling execute on job group1.job1
+  2017-05-01 01:40:47 [ INFO] - com.v.test.HelloJob -HelloJob.java(16) -Hello World! - Mon May 01 01:40:47 CST 2017
+  
