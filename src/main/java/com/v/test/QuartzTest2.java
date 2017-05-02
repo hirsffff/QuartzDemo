@@ -19,10 +19,7 @@ public class QuartzTest2 {
 
 	public static void main(String[] args) {
 
-		/*
-		 * trigger = newTrigger().withIdentity("trigger1", "group1")
-		 * .withSchedule(cronSchedule("0/5 * * * * ?")).build(); //5秒运行一次任务
-		 */
+		trigger = newTrigger().withIdentity("trigger1", "group1").withSchedule(cronSchedule("0/5 * * * * ?")).build(); // 5秒运行一次任务
 		/*
 		 * trigger = newTrigger().withIdentity("trigger2",
 		 * "group1").withSchedule(cronSchedule("10 0/1 * * * ?")).build();//
@@ -59,16 +56,12 @@ public class QuartzTest2 {
 		 * .withSchedule(cronSchedule("0,30 * * ? 5 MON-FRI")) .build();
 		 * 5月每周一、周日任何时间0秒开始30秒运行一次
 		 */
-		/*  
-		 * 参数说明：
-		 * 	Seconds    0-59    , - * / 
-		 *	Minutes    0-59    , - * / 
-		 *	Hours    0-23    , - * / 
-		 *	Day-of-month    1-31    , - * ? / L W 
-		 *	Month    1-12 or JAN-DEC    , - * / 
-		 *	Day-of-Week    1-7 or SUN-SAT    , - * ? / L # 
-		 *	Year (Optional)    empty, 1970-2199    , - * / 
-		 *	
+		/*
+		 * 参数说明： Seconds 0-59 , - * / Minutes 0-59 , - * / Hours 0-23 , - * /
+		 * Day-of-month 1-31 , - * ? / L W Month 1-12 or JAN-DEC , - * /
+		 * Day-of-Week 1-7 or SUN-SAT , - * ? / L # Year (Optional) empty,
+		 * 1970-2199 , - * /
+		 * 
 		 */
 		test1(trigger);
 	}
